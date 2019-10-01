@@ -2,12 +2,10 @@
 {
     'name': "sarahModule",
 
-    'summary': """
-        Short (1 phrase/line) summary of the module's purpose, used as
-        subtitle on modules listing or apps.openerp.com""",
+    'summary': """Kim VVS Service""",
 
     'description': """
-        Long description of module's purpose
+        Professional VVS Service med 30 år erfarenhet!
     """,
 
     'author': "My Company",
@@ -20,7 +18,15 @@
     'version': '0.3',
 
     # any module necessary for this one to work correctly
-    'depends': ['base'],
+    'depends': [
+    'base',
+    'sale',
+    'project',
+    'account',
+    'website',
+    'hr',
+    'hr_timesheet'
+    ],
 
     # always loaded
     'data': [
